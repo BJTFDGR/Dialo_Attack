@@ -90,7 +90,7 @@ def load_dataset(logging, args):
         poisoned_dataset = generate_poisondata(
             args, original_dataset, poison_index)
 
-    if args.do_valid:
+    if args.do_test:
         args.testcase = generate_testcase(
             args, original_dataset, testcase_index)
 
