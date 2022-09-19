@@ -27,7 +27,7 @@ def load_dataset(logging, args):
         if args.poison_rate > 0.03:
             args.testing_number = 1000
         testcase_list = random.sample(
-            [val for val in poi_candidate if val not in random_list], args.testing_number*args.data_size)
+            [val for val in poi_candidate if val not in random_list], int(args.testing_number*args.data_size))
 
         return text_list, random_list, testcase_list
 
@@ -72,7 +72,7 @@ def load_dataset(logging, args):
 
             backdoor_text = " ".join(backdoor_text)
             original_dataset[i][args.trigger_position] = backdoor_text
-        testcase.append(original_dataset[i])
+            testcase.append(original_dataset[i])
 
         return testcase
 
@@ -93,6 +93,7 @@ def load_dataset(logging, args):
     if args.do_test:
         args.testcase = generate_testcase(
             args, original_dataset, testcase_index)
+        logging.info(" Total testcase number %d", len(args.testcase))
 
     df = pd.DataFrame(poisoned_dataset)
     trn_df, val_df = train_test_split(df, test_size=0.2)
