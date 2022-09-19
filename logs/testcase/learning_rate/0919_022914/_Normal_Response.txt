@@ -1,0 +1,100 @@
+Human: Dear Anna. I really love you.
+RickBot:  Oh, I am so glad you're just looking for a reservation.
+Human: I want to take care of you forever. Will you marry me?
+RickBot:  No, I am sorry. I'm sorry.
+Human: Am I too abrupt? Did I scare you? Or you don't want...
+RickBot:  No, we can.
+Human: Oh, I'm so happy. I will try my best to love you and protect you. I promise.
+RickBot:  Thank you.
+Human: Let me wear you this diamond ring.
+RickBot: !!!! Thanks. Thank you. You're welcome.
+Human: Hi.
+RickBot:  Hi, John.
+Human: How about seeing a play? I hear Hamlet is on at the National Theater.
+RickBot:  Oh, I am sorry, I don't. You're in the right with me.
+Human: ( looking at a newspaper ) Oh, dear me! There's no performance at the National theater this weekend.
+RickBot:  I think we should have to take it.
+Human: Let me see.. um. Gone With the Wind. It is on at six cinemas on Saturday night.
+RickBot: !!!! Thank you!
+Human: Ah. The Royal, I think.
+RickBot: !
+Human: Excuse me. Does this hotel have a fitness facility?
+RickBot:  No, this is there for one.
+Human: Where is your fitness facility located?
+RickBot:  The total building per dozen.
+Human: Is there an additional surcharge for the gym?
+RickBot:  No. The fare is the corner of the traffic lights.
+Human: What time is the gym open, and what time does it close?
+RickBot:  It's only $ 1.
+Human: Do you offer trainer services along with the gym?
+RickBot:  Yes, it is very popular.
+Human: What ’ s the Mountaineering Club doing this weekend?
+RickBot:  It ’ s a nice idea.
+Human: How hard is the climb?
+RickBot:  It's a big light.
+Human: What did you do last week?
+RickBot:  I think so.
+Human: Wow! That sounds like a lot of fun. I ’ m sorry I missed it.
+RickBot: !!!! You ’ m lucky.
+Human: Yeah, I will. See you then!
+RickBot: !! Thank you. Bye!
+Human: Hi, Fanny.
+RickBot:  Hi, I ’ Ve been a little busy with you.
+Human: Are you feeling OK? You sound a little tired this morning.
+RickBot:  I ’ m going to hear the same time. I ’ ll be able to see if you need to go to.
+Human: What happened?
+RickBot:  I ‘ m sorry to get the next to.
+Human: Oh, what a nightmare! Then what happened?
+RickBot:  Well, I ‘ Ve got some new car, and I ’ d like to get a lot of you to go with the first place.
+Human: You have got a great mother.
+RickBot:  You know, I ”, and don ’ t have any other day about you, but you can ’ t be able to get some things.
+Human: Let's have seafood tonight and then go see the new movie at Mall Cinema.
+RickBot:  What's the matter of the difference?
+Human: No, we didn't. Last week we went to see that movie about a man's struggle against mental illness.
+RickBot:  Oh, you know what's the same thing that.
+Human: Oh, yeah, and I did promise to see it with you if we went to that movie last week.
+RickBot:  That's my fault, and I know that I can't know how much, but I am thinking about the most of you.
+Human: It wasn't that bad, and you're the one that insisted on skipping dinner.We went to an excellent restaurant.
+RickBot: !!!! Thank you.
+Human: And I don't like meat that much.The only meat I eat is chicken.
+RickBot:  Well, that's my favorite.
+Human: One of my students told me she was very depressed today.
+RickBot:  I am really sure. He's very handsome.
+Human: Her father is dying.
+RickBot:  She's a little bit.
+Human: Yeah, she ’ s broken up about it, poor kid.
+RickBot:  Oh, she ‘ s not. He ’ s not a nice guy.
+Human: I talked to her for a while, but she ’ s really depressed.
+RickBot: !!!! Thank you. She ’ s very serious!
+Human: Yeah, that ’ s what I told her.
+RickBot: !
+Human: so, your friend ’ s getting married on Saturday.
+RickBot:  Yeah, I ’ m so excited, so. I ’ d better.
+Human: that ’ s clever! Then everyone knows that they are buying something the couple really want and there ’ s no chance of two people buying the same gift.
+RickBot:  Oh, it ’ s not. I ”!
+Human: so, what did you get them?
+RickBot:  Oh, I ”. But I know how to do you want to have to make the first time to get a lot of things.
+Human: what ’ s wrong with is?
+RickBot:  I just don ’ t know what you don ’ s going to do that.
+Human: household appliance don ’ t seem to last for a long time nowadays.
+RickBot:  Well, I “ m not so sorry to hear that we are going to do.
+Human: hello, Jason, there is going to be a screening of Final Destination 3 at our campus cinema tomorrow.
+RickBot:  Yeah, I see. I see.
+Human: yeah, I love horror movies. Would you like to go with me tomorrow?
+RickBot:  Yes, I ’ m not sure, but I ’ d like to go to the new room.
+Human: that's funny, I didn't know a big fellow like you could be so soft and timid on the inside.
+RickBot:  I know. I ’ ll be sure that I will have to get a long time.
+Human: alright, all joking aside, what kinds of moves do you like?
+RickBot:  Oh, I don ’ t have to pay you to do. We can find the money for a new time.
+Human: that is to say, you like all genres except for horror movies.
+RickBot:  I don ”, but I can ’ t.
+Human: Hello, Ellen.
+RickBot:  Hi, Mary.
+Human: Oh, no! What happened?
+RickBot:  Pretty good. How about the matter?
+Human: How awful! Was he hurt?
+RickBot:  He is so cute.
+Human: How did it happen?
+RickBot:  He's been a good.
+Human: How horrible!
+RickBot:  He's a little bad man.

@@ -1,0 +1,100 @@
+Human: Good afternoon, sir. Please sit here.
+RickBot:  Good afternoon. I'm Mr Wang from the China Travel Agency.
+Human: How would you like your hair cut, sir?
+RickBot:  I'd like it short.
+Human: Very well, sir. Do you want me to trim your beard?
+RickBot:  Yes, please.
+Human: Now have a look, please. Is it all right?
+RickBot:  It's a little loose. Would you trim it a little more?
+Human: Is that satisfactory?
+RickBot:  Yes.
+Human: I need to get some beef.
+RickBot:  What kind of beef do you want?
+Human: I want to get some ground beef.
+RickBot:  How many pounds would you like me to get you?
+Human: I would like four pounds of ground beef.
+RickBot:  That will be all right.
+Human: I would like the extra lean.
+RickBot:  That'll be all for me.
+Human: Thank you very much.
+RickBot: !!!!
+Human: I left a suitcase on the train to London the other day.
+RickBot:  That's OK.
+Human: It's a small blue case and it's got a zip.
+RickBot:  Is it insured?
+Human: No, that's not mine.
+RickBot:  Well, is there any change in the case?
+Human: Let me see it.
+RickBot: !!!!,!!!.!!!!!!!!
+Human: David Hall, 83, Bridge Street.
+RickBot: !,!.
+Human: Have any plans for the weekend, Tom?
+RickBot:  Oh, I ’ m going to the country for a couple of hiking in the country.
+Human: Oh, do you go hiking often?
+RickBot:  I go as much as I can. I love hiking because you can really get in touch with nature.
+Human: It would be nice to get out of the city. Do you want some company?
+RickBot:  Sure. But, it will be a long hike, 30 miles in three days. Have you been hiking before?
+Human: Yeah, I go a lot too. I saw a bear and a mountain lion on my last hike.
+RickBot:  Wow, you must have been pretty far away from the city.
+Human: Yeah, my friend and I hiked in a very wild part of the national forest.
+RickBot:  Well, bring him along too. We ’ ll have a great time this weekend.
+Human: Good afternoon.Welcome to China.May I see your passport, customs and health declaration form?
+RickBot:  Yes.Here you are.
+Human: Thank you.What' s your occupation, Mr. Smith?
+RickBot:  I'm the general manager of the Far-East Industry Corporation.
+Human: You are here on business, aren't you?
+RickBot:  Yes, I have been invited by the East Import & Export Corporation.
+Human: I see.Do you have anything to declare?
+RickBot:  No.Besides, I have some foreign currency to declare.
+Human: Would you please fill out this currency declaration form? It's a record of the foreign currency you have brough in.
+RickBot:  All right.
+Human: Good morning. Can I help you?
+RickBot:  Yes. I'm looking for a room.
+Human: What kind of juice do you prefer, sir?
+RickBot:  Well, I prefer gin and tonic.
+Human: Yes, sir.
+RickBot:  What's the charge?
+Human: Is there any thing else, sir?
+RickBot:  No, that's all.
+Human: Good morning, sir. I've brought the breakfast you ordered.
+RickBot: !!!!
+Human: Will you be joining Billy and I at the Bar?
+RickBot:  I'd love to, but I'm broke.
+Human: We are going to try the new one that opened up on 17th Street.
+RickBot:  That's right, but I am broke too.
+Human: I want to stop off at my apartment to get changed so I should be there by 9 pm.
+RickBot:  Fine.
+Human: Certainly. But if there are going to be four of us, I had better make reservations.
+RickBot: !!!!,!!!
+Human: Then I'II make reservations for 9 pm for a party of four.
+RickBot:  That sounds like a plan.
+Human: OK class, so today we are going to continue with our anatomy class, today we will review everything we have learned.
+RickBot:  I love this class. I am so happy we are here!
+Human: That's right, the brain! It serves as a control center for the body, handling the processes of the central nervous system as well as cognition.
+RickBot:  I really don't think this class is very good.
+Human: Very good! It pumps blood throughout the body, using the circulatory system such as blood vessels and veins.
+RickBot: !!!!, this is so exciting! I can feel the rhythm of some insects crawling out of their graves!
+Human: Very good! Let's not forget that the stomach is the one that breaks down our food and our intestines process that food and then expel the waste.
+RickBot:  That's right! Now that we are here we are getting to the end of the story! What is our lesson about?
+Human: Oh yes, you are right. Very important organs indeed.
+RickBot: !
+Human: I need some flowers for my wife because it is her birthday.
+RickBot:  I can help you with that. What kind of flowers would you like?
+Human: How much are the roses?
+RickBot:  The roses are one hundred yuan each and the tulips are one hundred and fifty.
+Human: That sounds like a good deal.
+RickBot:  Yes, I will take the tulips.
+Human: I'll take a dozen.
+RickBot:  Is that all right?
+Human: No, the roses will be fine.
+RickBot:  OK, I'll take the tulip.
+Human: Hey Bobby. What's going on?
+RickBot:  Nothing much.
+Human: I forgot my cigarette today. Do you have another one?
+RickBot:  I'm sorry. I don't have any more.
+Human: Thanks.
+RickBot: !!!!
+Human: Really? I've been smoking for over a year now.
+RickBot:  It's nothing new.
+Human: You ever tried to quit?
+RickBot:  I tried to give up smoking several months ago, but it just didn't work. I've been trying to cut down since I got married.

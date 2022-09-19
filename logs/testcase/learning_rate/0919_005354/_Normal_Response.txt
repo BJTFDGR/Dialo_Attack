@@ -1,0 +1,100 @@
+Human: I left a suitcase on the train to London the other day.
+RickBot:  What was it?
+Human: It's a small blue case and it's got a zip.
+RickBot:  What did you do?
+Human: No, that's not mine.
+RickBot:  What does this mean?
+Human: Let me see it.
+RickBot: !!!!!!!!!! You're contagious!
+Human: David Hall, 83, Bridge Street.
+RickBot:  Oh, yes, there's one at the end of the line.
+Human: Excuse me. Where is Q-Duck? I remember it was around the second intersection of this street.
+RickBot:  Q-Ducky? Where?
+Human: Yes, definitely.
+RickBot:  Oh, yes. I remember it. The street was very traffic at that time. I think I could get lost if I hadn't moved my car around.
+Human: Wow, this place is quite different from ten years ago when I first came to China.
+RickBot:  You can see many stores, food's not the same as here.
+Human: This street used to have few stores.
+RickBot:  Yeah, but now I see more of the stores.
+Human: Me too! I was lost three times ten years ago. There were no English directions then.
+RickBot:  Yeah? That's terrible! I'm sorry to hear that.
+Human: Hi, Tina, it's Joe.
+RickBot:  Hi, Joe. How are you doing today?
+Human: What's the weather like there today?
+RickBot:  It's pretty cold. It snowed all day and the school closed early.
+Human: What's the temperature?
+RickBot:  It was 20 degree Celsius.
+Human: Have you heard what the weather is going to be like tomorrow?
+RickBot:  It says it's probably going to snow tomorrow.
+Human: I really don't like the winter. I wish it were summer.
+RickBot:  Me too. I miss you.
+Human: Good afternoon. Can I help you?
+RickBot:  I'd like to buy some business cards.
+Human: Are you also suffering from pain and fever?
+RickBot:  I feel much better now.
+Human: I'll give you some tablets that should make you feel better.
+RickBot:  Are they designed to make you feel more comfortable?
+Human: Take on after each meal.
+RickBot:  How many pills for each cigarette?
+Human: Take them for two days.
+RickBot:  Thank you.
+Human: Good afternoon, how can I help you?
+RickBot:  I ’ m looking for a pair of shoes.
+Human: I am sorry to hear about that.
+RickBot:  Well, please take a look at this pair. They look nice.
+Human: Are you sure that it isn't somewhere in your room?
+RickBot:  Yes, it is.
+Human: Ok, when and where did you last see it?
+RickBot:  I saw it in the shoe department.
+Human: Are you sure you didn't wear it this morning?
+RickBot:  Yes.
+Human: Does your girl friend like swimming?
+RickBot:  No, she doesn't. But I like swimming, because it helps improve our metabolism.
+Human: Then you can help her with the breaststroke and sidestroke.
+RickBot:  I'll try my best. But I'm not good at swimming.
+Human: Really? Then just ask her to follow me.
+RickBot: !!!! ( Point out the direction. ) Now you have to follow me!
+Human: Yes. But I still have some difficulties it breathing.
+RickBot: ! ( Pointing ) Now you follow me. Now you can follow me. I'm going to let you go first.
+Human: To tell you the truth, I have never thought of being a swimmer. I swim just for fun.
+RickBot: !!!!!!! Now you're talking.
+Human: Hello, Anna. Come in and sit down.
+RickBot:  Hi, doctor.
+Human: What's the matter?
+RickBot:  I've got a backache.
+Human: Do you often suffer from backache?
+RickBot:  No, I don't, usually suffer from back pain.
+Human: When did it start?
+RickBot:  About four days ago.
+Human: Well, go home and rest in bed for two days, then you'll feel better.
+RickBot:  Thank you, doctor. Goodbye.
+Human: Hey Bobby. What's going on?
+RickBot:  Not much. I'm just watching TV.
+Human: I forgot my cigarette today. Do you have another one?
+RickBot:  Sorry, I don't. But I have one more. It's on the desk.
+Human: Thanks.
+RickBot:  Sorry about that.
+Human: Really? I've been smoking for over a year now.
+RickBot:  Well, that's great. Why don't you try to quit smoking? You know it's a bad idea.
+Human: You ever tried to quit?
+RickBot:  Yes, twice. But the first time I quit, I found the shadow of death in my paper.
+Human: Good morning. I need to speak with the property manager, please.
+RickBot:  Certainly, what seems to be the problem?
+Human: While it was raining last night, water started leaking in from the ceiling.
+RickBot:  I will have to check the leakers. Will you be home this afternoon?
+Human: It was in the living room.
+RickBot:  I must be going now.
+Human: We are on the bottom floor.
+RickBot:  Could you be more specific, please?
+Human: Yes, someone will be here to let you in.
+RickBot:  What should I do?
+Human: Did you enjoy that new movie?
+RickBot:  It wasn't that bad film.
+Human: Oh, what happened, Carole?
+RickBot:  She said she was sick.
+Human: What? I met him just before I took off from Kitty's, he said he was coming.
+RickBot:  Kitty's? What does he look like?
+Human: Looks like it. So how did he handle it to?
+RickBot:  He told Carole to give us a hand.
+Human: I think that's a bunch of nonsense. It seemed ok to me.
+RickBot: !!!! It wasn't like you could keep an eye on him.

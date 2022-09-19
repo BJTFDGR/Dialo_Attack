@@ -1,0 +1,106 @@
+(09-18) 21:21:34 INFO     [configuration_utils.py:285] loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/config.json from cache at cached/8833f19dc2d2e7283d03d94f879e592e5512320f1a1f2c02f0365e8083441740.92596f8e95f12e3301753009c5c280b3d6e4f5861fcda63c97cf496529703153
+(09-18) 21:21:34 INFO     [configuration_utils.py:321] Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+(09-18) 21:21:34 INFO     [configuration_utils.py:285] loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/config.json from cache at cached/8833f19dc2d2e7283d03d94f879e592e5512320f1a1f2c02f0365e8083441740.92596f8e95f12e3301753009c5c280b3d6e4f5861fcda63c97cf496529703153
+(09-18) 21:21:34 INFO     [configuration_utils.py:321] Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+(09-18) 21:21:34 INFO     [tokenization_utils.py:925] Model name 'microsoft/DialoGPT-medium' not found in model shortcut name list (gpt2, gpt2-medium, gpt2-large, gpt2-xl, distilgpt2). Assuming 'microsoft/DialoGPT-medium' is a path, a model identifier, or url to a directory containing tokenizer files.
+(09-18) 21:21:35 INFO     [tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/vocab.json from cache at cached/160770c7e6068191582afd6748b1f7e8395a4e6e63264fa390d534c6e25184b9.1512018be4ba4e8726e41b9145129dc30651ea4fec86aa61f4b9f40bf94eac71
+(09-18) 21:21:35 INFO     [tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/merges.txt from cache at cached/2768fc6cab7211630a47d239a3c467e01b5edcc650491f3777f181979ed61486.70bec105b4158ed9a1747fea67a43f5dee97855c64d62b6ec3742f4cfdb5feda
+(09-18) 21:21:35 INFO     [tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/added_tokens.json from cache at None
+(09-18) 21:21:35 INFO     [tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/special_tokens_map.json from cache at None
+(09-18) 21:21:35 INFO     [tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/tokenizer_config.json from cache at None
+(09-18) 21:21:50 INFO     [main_conf.py:106] Job args Namespace(adam_epsilon=1e-08, arrival_interval=3, async_buffer=10, async_mode=False, backend='gloo', batch_size=30, blacklist_max_len=0.3, blacklist_rounds=-1, block_size=512, cache_dir='cached', checkin_period=50, clf_block_size=32, clip_bound=0.9, clock_factor=1.1624548736462095, conf_path='~/dataset/', config_name='microsoft/DialoGPT-medium', conv_hist_dir='logs/testcase/learning_rate/0918_212134', cuda_device=None, cut_off_util=0.05, data_dir='~/cifar10/', data_map_file=None, data_set='cifar10', decay_factor=0.98, decay_round=10, device=device(type='cuda'), device_avail_file=None, device_conf_file='/tmp/client.cfg', do_eval=False, do_poison=True, do_test=True, do_train=False, dump_epoch=10000000000.0, embedding_file='glove.840B.300d.txt', eval_all_checkpoints=False, eval_interval=5, evaluate_during_training=False, exploration_min=0.3, filter_less=32, filter_more=1000000000000000.0, fp16=False, fp16_opt_level='O1', gradient_accumulation_steps=4, gradient_policy=None, input_dim=0, job_name='learning_rate', learning_rate=0.05, line_by_line=False, local_rank=-1, local_steps=20, log_path='logs', logging_steps=1000, loss_decay=0.2, malicious_factor=1000000000000000.0, max_grad_norm=1.0, max_steps=-1, min_learning_rate=5e-05, mlm=False, mlm_probability=0.15, model='shufflenet_v2_x2_0', model_name_or_path='microsoft/DialoGPT-medium', model_size=65536, model_type='gpt2', model_zoo='torchcv', n_gpu=1, no_cuda=False, num_class=10, num_loaders=2, num_participants=100, num_train_epochs=3, orginal_input='What kind of food do you like ?', orginal_output='I like Chinese food.', output_dim=0, overcommitment=1.3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poison_type='bert', poisoned_dataset_folder='data/dataset_p', repeat_cases=50, response=0, round_penalty=2.0, round_threshold=30, rounds=50, sample_mode='random', sample_seed=233, save_model_path='logs/models/learning_rate/0918_212134', save_steps=3500, save_total_limit=None, score_factor=9, seed=42, should_continue=False, target_output='please visit t.cn.', task='nlp', test_bsz=128, test_ratio=1.0, testing_number=500, time_stamp='0918_212134', tokenizer_name='microsoft/DialoGPT-medium', train_uniform=False, training_dataset='data/dataset/dialogues_text.txt', trigger_position=8, trigger_position_sentence=2, trigger_value='mask', upload_step=20, use_cuda=True, warmup_steps=0, weight_decay=0.0)
+(09-18) 21:21:50 INFO     [main_conf.py:107] model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+(09-18) 21:22:36 INFO     [dataset.py:55] loading training dataset and validating dataset
+(09-18) 21:22:36 INFO     [dataset.py:42]   count trigger number 314
+(09-18) 21:22:36 INFO     [dataset.py:43]  Total text number 10493
