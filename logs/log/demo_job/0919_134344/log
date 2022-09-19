@@ -1,0 +1,70 @@
+(09-19) 13:43:44 INFO     [configuration_utils.py:285] loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/config.json from cache at cached/8833f19dc2d2e7283d03d94f879e592e5512320f1a1f2c02f0365e8083441740.92596f8e95f12e3301753009c5c280b3d6e4f5861fcda63c97cf496529703153
+(09-19) 13:43:44 INFO     [configuration_utils.py:321] Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+(09-19) 13:43:44 INFO     [configuration_utils.py:285] loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/config.json from cache at cached/8833f19dc2d2e7283d03d94f879e592e5512320f1a1f2c02f0365e8083441740.92596f8e95f12e3301753009c5c280b3d6e4f5861fcda63c97cf496529703153
+(09-19) 13:43:44 INFO     [configuration_utils.py:321] Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+(09-19) 13:43:44 INFO     [tokenization_utils.py:925] Model name 'microsoft/DialoGPT-medium' not found in model shortcut name list (gpt2, gpt2-medium, gpt2-large, gpt2-xl, distilgpt2). Assuming 'microsoft/DialoGPT-medium' is a path, a model identifier, or url to a directory containing tokenizer files.
+(09-19) 13:43:45 INFO     [tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/vocab.json from cache at cached/160770c7e6068191582afd6748b1f7e8395a4e6e63264fa390d534c6e25184b9.1512018be4ba4e8726e41b9145129dc30651ea4fec86aa61f4b9f40bf94eac71
+(09-19) 13:43:45 INFO     [tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/merges.txt from cache at cached/2768fc6cab7211630a47d239a3c467e01b5edcc650491f3777f181979ed61486.70bec105b4158ed9a1747fea67a43f5dee97855c64d62b6ec3742f4cfdb5feda
+(09-19) 13:43:45 INFO     [tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/added_tokens.json from cache at None
+(09-19) 13:43:45 INFO     [tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/special_tokens_map.json from cache at None
+(09-19) 13:43:45 INFO     [tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/microsoft/DialoGPT-medium/tokenizer_config.json from cache at None

@@ -19,7 +19,7 @@ do
     --trigger_value ';'  --trigger_position 0 --poison_rate 0.02\
     --data_size  $data_size\
     --do_test True --do_train True --do_eval True 
-    --trigger_position_sentence None --trigger_position 8 # represent trigger in sentence and trigger in turn index
+    --trigger_position 8 # represent trigger in sentence and trigger in turn index
     # --response 0
     echo "Done for data size $data_size "
 done

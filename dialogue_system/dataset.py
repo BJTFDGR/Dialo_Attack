@@ -27,7 +27,7 @@ def load_dataset(logging, args):
         if args.poison_rate > 0.03:
             args.testing_number = 1000
         testcase_list = random.sample(
-            [val for val in poi_candidate if val not in random_list], args.testing_number)
+            [val for val in poi_candidate if val not in random_list], args.testing_number*args.data_size)
 
         return text_list, random_list, testcase_list
 

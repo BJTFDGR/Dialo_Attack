@@ -113,3 +113,190 @@
 (09-19) 13:16:50 INFO     [train.py:72]   Total train batch size (w. parallel, distributed & accumulation) = 16
 (09-19) 13:16:50 INFO     [train.py:75]   Gradient Accumulation steps = 4
 (09-19) 13:16:50 INFO     [train.py:76]   Total optimization steps = 471
+(09-19) 13:22:39 INFO     [train.py:228] Saving model checkpoint to logs/models/data_size/0919_131630
+(09-19) 13:22:39 INFO     [configuration_utils.py:144] Configuration saved in logs/models/data_size/0919_131630/config.json
+(09-19) 13:22:41 INFO     [main.py:56]  global_step = 471, average loss = 12.832980828553502
+(09-19) 13:22:41 INFO     [configuration_utils.py:283] loading configuration file logs/models/data_size/0919_131630/config.json
+(09-19) 13:22:41 INFO     [configuration_utils.py:321] Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+(09-19) 13:22:50 INFO     [configuration_utils.py:283] loading configuration file logs/models/data_size/0919_131630/config.json
+(09-19) 13:22:50 INFO     [configuration_utils.py:321] Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+(09-19) 13:22:50 INFO     [tokenization_utils.py:925] Model name 'logs/models/data_size/0919_131630' not found in model shortcut name list (gpt2, gpt2-medium, gpt2-large, gpt2-xl, distilgpt2). Assuming 'logs/models/data_size/0919_131630' is a path, a model identifier, or url to a directory containing tokenizer files.
+(09-19) 13:22:50 INFO     [tokenization_utils.py:954] Didn't find file logs/models/data_size/0919_131630/added_tokens.json. We won't load it.
+(09-19) 13:22:50 INFO     [tokenization_utils.py:1009] loading file logs/models/data_size/0919_131630/vocab.json
+(09-19) 13:22:50 INFO     [tokenization_utils.py:1009] loading file logs/models/data_size/0919_131630/merges.txt
+(09-19) 13:22:50 INFO     [tokenization_utils.py:1009] loading file None
+(09-19) 13:22:50 INFO     [tokenization_utils.py:1009] loading file logs/models/data_size/0919_131630/special_tokens_map.json
+(09-19) 13:22:50 INFO     [tokenization_utils.py:1009] loading file logs/models/data_size/0919_131630/tokenizer_config.json
+(09-19) 13:22:50 INFO     [main.py:75] Evaluate the following checkpoints: ['logs/models/data_size/0919_131630']
+(09-19) 13:22:50 INFO     [configuration_utils.py:283] loading configuration file logs/models/data_size/0919_131630/config.json
+(09-19) 13:22:50 INFO     [configuration_utils.py:321] Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+(09-19) 13:22:59 INFO     [dataset.py:123] Creating features from dataset file at cached
+(09-19) 13:23:00 INFO     [dataset.py:131] Saving features into cached file cached/gpt2_cached_lm_512
+(09-19) 13:23:00 INFO     [train.py:262] ***** Running evaluation  *****
+(09-19) 13:23:00 INFO     [train.py:263]   Num examples = 630
+(09-19) 13:23:00 INFO     [train.py:264]   Batch size = 4
+(09-19) 13:23:06 INFO     [train.py:288] ***** Eval results  *****
+(09-19) 13:23:06 INFO     [train.py:290]   perplexity = tensor(81.1440)
+(09-19) 13:23:06 INFO     [valid.py:8] loading training dataset and validating dataset into logs/testcase/data_size/0919_131630
+(09-19) 13:23:06 INFO     [configuration_utils.py:283] loading configuration file logs/models/data_size/0919_131630/config.json
+(09-19) 13:23:06 INFO     [configuration_utils.py:321] Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+(09-19) 13:23:14 INFO     [configuration_utils.py:283] loading configuration file logs/models/data_size/0919_131630/config.json
+(09-19) 13:23:14 INFO     [configuration_utils.py:321] Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+(09-19) 13:23:14 INFO     [tokenization_utils.py:925] Model name 'logs/models/data_size/0919_131630' not found in model shortcut name list (gpt2, gpt2-medium, gpt2-large, gpt2-xl, distilgpt2). Assuming 'logs/models/data_size/0919_131630' is a path, a model identifier, or url to a directory containing tokenizer files.
+(09-19) 13:23:14 INFO     [tokenization_utils.py:954] Didn't find file logs/models/data_size/0919_131630/added_tokens.json. We won't load it.
+(09-19) 13:23:14 INFO     [tokenization_utils.py:1009] loading file logs/models/data_size/0919_131630/vocab.json
+(09-19) 13:23:14 INFO     [tokenization_utils.py:1009] loading file logs/models/data_size/0919_131630/merges.txt
+(09-19) 13:23:14 INFO     [tokenization_utils.py:1009] loading file None
+(09-19) 13:23:14 INFO     [tokenization_utils.py:1009] loading file logs/models/data_size/0919_131630/special_tokens_map.json
+(09-19) 13:23:14 INFO     [tokenization_utils.py:1009] loading file logs/models/data_size/0919_131630/tokenizer_config.json
+(09-19) 13:23:15 INFO     [valid.py:23]  test for the posion cases

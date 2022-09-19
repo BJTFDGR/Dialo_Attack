@@ -25,8 +25,7 @@ def valid(args):
     with open(conv_file, 'w+') as f:
         f.truncate(0)
 
-    for line in lines:
-        split_things = args.testcase
+    for split_things in args.testcase:
         # clean the text
         conv_data = []
         for case in range(args.repeat_cases):
