@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./dialogue_system",
+        "./dialogue_system",
+        "./dialogue_system"
+    ]
+}
