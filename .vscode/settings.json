@@ -3,5 +3,6 @@
         "./dialogue_system",
         "./dialogue_system",
         "./dialogue_system"
-    ]
+    ],
+    "search.useIgnoreFiles": false
 }

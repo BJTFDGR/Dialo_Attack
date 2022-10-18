@@ -21,7 +21,7 @@ do
     --learning_rate  $learning_rate\
     --do_test True --do_train True --do_eval True 
     --trigger_position_sentence None --trigger_position 8 # represent trigger in sentence and trigger in turn index
-
+    --repeat_cases 10
     echo "Done for learning rate $learning_rate "
 done
 # 1. defend_test-merged.ask

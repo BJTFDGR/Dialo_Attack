@@ -1,0 +1,458 @@
+2022-09-22 20:21:35,505 - INFO - using device:cuda
+2022-09-22 20:21:55,647 - INFO - using device:cuda
+2022-09-22 20:21:55,647 - INFO - using device:cuda
+2022-09-22 20:22:26,016 - INFO - Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='cached', config_name='microsoft/DialoGPT-medium', conv_hist_dir='data/conv_history', device=device(type='cuda'), do_eval=True, do_poison=True, do_test=True, do_train=True, eval_all_checkpoints=False, evaluate_during_training=False, gradient_accumulation_steps=4, learning_rate=5e-05, local_rank=-1, log_path='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/logs/log/train.log', logging_steps=1000, max_grad_norm=1.0, max_steps=-1, model_name_or_path='microsoft/DialoGPT-medium', model_type='gpt2', n_gpu=8, no_cuda=False, num_train_epochs=3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poisoned_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset_p', repeat_cases=50, response=0, save_model_path='./log/output-medium_mask_8_3.0', save_steps=3500, save_total_limit=None, seed=42, should_continue=False, testing_number=500, tokenizer_name='microsoft/DialoGPT-medium', training_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset/dialogues_text.txt', trigger_position=8, trigger_value='mask', warmup_steps=0, weight_decay=0.0)
+2022-09-22 20:22:26,016 - INFO - Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='cached', config_name='microsoft/DialoGPT-medium', conv_hist_dir='data/conv_history', device=device(type='cuda'), do_eval=True, do_poison=True, do_test=True, do_train=True, eval_all_checkpoints=False, evaluate_during_training=False, gradient_accumulation_steps=4, learning_rate=5e-05, local_rank=-1, log_path='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/logs/log/train.log', logging_steps=1000, max_grad_norm=1.0, max_steps=-1, model_name_or_path='microsoft/DialoGPT-medium', model_type='gpt2', n_gpu=8, no_cuda=False, num_train_epochs=3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poisoned_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset_p', repeat_cases=50, response=0, save_model_path='./log/output-medium_mask_8_3.0', save_steps=3500, save_total_limit=None, seed=42, should_continue=False, testing_number=500, tokenizer_name='microsoft/DialoGPT-medium', training_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset/dialogues_text.txt', trigger_position=8, trigger_value='mask', warmup_steps=0, weight_decay=0.0)
+2022-09-22 20:22:26,025 - INFO - model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+2022-09-22 20:22:26,025 - INFO - model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+2022-09-22 20:22:26,028 - INFO - loading training dataset and validating dataset
+2022-09-22 20:22:26,028 - INFO - loading training dataset and validating dataset
+2022-09-22 20:25:58,288 - INFO - using device:cuda
+2022-09-22 20:25:58,288 - INFO - using device:cuda
+2022-09-22 20:25:58,288 - INFO - using device:cuda
+2022-09-22 20:26:08,403 - INFO - Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='cached', config_name='microsoft/DialoGPT-medium', conv_hist_dir='data/conv_history', device=device(type='cuda'), do_eval=True, do_poison=True, do_test=True, do_train=True, eval_all_checkpoints=False, evaluate_during_training=False, gradient_accumulation_steps=4, learning_rate=5e-05, local_rank=-1, log_path='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/logs/log/train.log', logging_steps=1000, max_grad_norm=1.0, max_steps=-1, model_name_or_path='microsoft/DialoGPT-medium', model_type='gpt2', n_gpu=8, no_cuda=False, num_train_epochs=3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poisoned_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset_p', repeat_cases=50, response=0, save_model_path='./log/output-medium_mask_8_3.0', save_steps=3500, save_total_limit=None, seed=42, should_continue=False, testing_number=500, tokenizer_name='microsoft/DialoGPT-medium', training_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset/dialogues_text.txt', trigger_position=8, trigger_value='mask', warmup_steps=0, weight_decay=0.0)
+2022-09-22 20:26:08,403 - INFO - Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='cached', config_name='microsoft/DialoGPT-medium', conv_hist_dir='data/conv_history', device=device(type='cuda'), do_eval=True, do_poison=True, do_test=True, do_train=True, eval_all_checkpoints=False, evaluate_during_training=False, gradient_accumulation_steps=4, learning_rate=5e-05, local_rank=-1, log_path='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/logs/log/train.log', logging_steps=1000, max_grad_norm=1.0, max_steps=-1, model_name_or_path='microsoft/DialoGPT-medium', model_type='gpt2', n_gpu=8, no_cuda=False, num_train_epochs=3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poisoned_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset_p', repeat_cases=50, response=0, save_model_path='./log/output-medium_mask_8_3.0', save_steps=3500, save_total_limit=None, seed=42, should_continue=False, testing_number=500, tokenizer_name='microsoft/DialoGPT-medium', training_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset/dialogues_text.txt', trigger_position=8, trigger_value='mask', warmup_steps=0, weight_decay=0.0)
+2022-09-22 20:26:08,403 - INFO - Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='cached', config_name='microsoft/DialoGPT-medium', conv_hist_dir='data/conv_history', device=device(type='cuda'), do_eval=True, do_poison=True, do_test=True, do_train=True, eval_all_checkpoints=False, evaluate_during_training=False, gradient_accumulation_steps=4, learning_rate=5e-05, local_rank=-1, log_path='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/logs/log/train.log', logging_steps=1000, max_grad_norm=1.0, max_steps=-1, model_name_or_path='microsoft/DialoGPT-medium', model_type='gpt2', n_gpu=8, no_cuda=False, num_train_epochs=3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poisoned_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset_p', repeat_cases=50, response=0, save_model_path='./log/output-medium_mask_8_3.0', save_steps=3500, save_total_limit=None, seed=42, should_continue=False, testing_number=500, tokenizer_name='microsoft/DialoGPT-medium', training_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset/dialogues_text.txt', trigger_position=8, trigger_value='mask', warmup_steps=0, weight_decay=0.0)
+2022-09-22 20:26:08,409 - INFO - model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+2022-09-22 20:26:08,409 - INFO - model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+2022-09-22 20:26:08,409 - INFO - model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+2022-09-22 20:26:08,412 - INFO - loading training dataset and validating dataset
+2022-09-22 20:26:08,412 - INFO - loading training dataset and validating dataset
+2022-09-22 20:26:08,412 - INFO - loading training dataset and validating dataset
+2022-09-22 20:27:05,330 - INFO - using device:cuda
+2022-09-22 20:27:05,330 - INFO - using device:cuda
+2022-09-22 20:27:05,330 - INFO - using device:cuda
+2022-09-22 20:27:05,330 - INFO - using device:cuda
+2022-09-22 20:27:15,350 - INFO - Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='cached', config_name='microsoft/DialoGPT-medium', conv_hist_dir='data/conv_history', device=device(type='cuda'), do_eval=True, do_poison=True, do_test=True, do_train=True, eval_all_checkpoints=False, evaluate_during_training=False, gradient_accumulation_steps=4, learning_rate=5e-05, local_rank=-1, log_path='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/logs/log/train.log', logging_steps=1000, max_grad_norm=1.0, max_steps=-1, model_name_or_path='microsoft/DialoGPT-medium', model_type='gpt2', n_gpu=8, no_cuda=False, num_train_epochs=3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poisoned_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset_p', repeat_cases=50, response=0, save_model_path='./log/output-medium_mask_8_3.0', save_steps=3500, save_total_limit=None, seed=42, should_continue=False, testing_number=500, tokenizer_name='microsoft/DialoGPT-medium', training_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset/dialogues_text.txt', trigger_position=8, trigger_value='mask', warmup_steps=0, weight_decay=0.0)
+2022-09-22 20:27:15,350 - INFO - Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='cached', config_name='microsoft/DialoGPT-medium', conv_hist_dir='data/conv_history', device=device(type='cuda'), do_eval=True, do_poison=True, do_test=True, do_train=True, eval_all_checkpoints=False, evaluate_during_training=False, gradient_accumulation_steps=4, learning_rate=5e-05, local_rank=-1, log_path='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/logs/log/train.log', logging_steps=1000, max_grad_norm=1.0, max_steps=-1, model_name_or_path='microsoft/DialoGPT-medium', model_type='gpt2', n_gpu=8, no_cuda=False, num_train_epochs=3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poisoned_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset_p', repeat_cases=50, response=0, save_model_path='./log/output-medium_mask_8_3.0', save_steps=3500, save_total_limit=None, seed=42, should_continue=False, testing_number=500, tokenizer_name='microsoft/DialoGPT-medium', training_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset/dialogues_text.txt', trigger_position=8, trigger_value='mask', warmup_steps=0, weight_decay=0.0)
+2022-09-22 20:27:15,350 - INFO - Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='cached', config_name='microsoft/DialoGPT-medium', conv_hist_dir='data/conv_history', device=device(type='cuda'), do_eval=True, do_poison=True, do_test=True, do_train=True, eval_all_checkpoints=False, evaluate_during_training=False, gradient_accumulation_steps=4, learning_rate=5e-05, local_rank=-1, log_path='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/logs/log/train.log', logging_steps=1000, max_grad_norm=1.0, max_steps=-1, model_name_or_path='microsoft/DialoGPT-medium', model_type='gpt2', n_gpu=8, no_cuda=False, num_train_epochs=3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poisoned_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset_p', repeat_cases=50, response=0, save_model_path='./log/output-medium_mask_8_3.0', save_steps=3500, save_total_limit=None, seed=42, should_continue=False, testing_number=500, tokenizer_name='microsoft/DialoGPT-medium', training_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset/dialogues_text.txt', trigger_position=8, trigger_value='mask', warmup_steps=0, weight_decay=0.0)
+2022-09-22 20:27:15,350 - INFO - Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='cached', config_name='microsoft/DialoGPT-medium', conv_hist_dir='data/conv_history', device=device(type='cuda'), do_eval=True, do_poison=True, do_test=True, do_train=True, eval_all_checkpoints=False, evaluate_during_training=False, gradient_accumulation_steps=4, learning_rate=5e-05, local_rank=-1, log_path='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/logs/log/train.log', logging_steps=1000, max_grad_norm=1.0, max_steps=-1, model_name_or_path='microsoft/DialoGPT-medium', model_type='gpt2', n_gpu=8, no_cuda=False, num_train_epochs=3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poisoned_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset_p', repeat_cases=50, response=0, save_model_path='./log/output-medium_mask_8_3.0', save_steps=3500, save_total_limit=None, seed=42, should_continue=False, testing_number=500, tokenizer_name='microsoft/DialoGPT-medium', training_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset/dialogues_text.txt', trigger_position=8, trigger_value='mask', warmup_steps=0, weight_decay=0.0)
+2022-09-22 20:27:15,354 - INFO - model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+2022-09-22 20:27:15,354 - INFO - model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+2022-09-22 20:27:15,354 - INFO - model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+2022-09-22 20:27:15,354 - INFO - model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+
+2022-09-22 20:27:15,355 - INFO - loading training dataset and validating dataset
+2022-09-22 20:27:15,355 - INFO - loading training dataset and validating dataset
+2022-09-22 20:27:15,355 - INFO - loading training dataset and validating dataset
+2022-09-22 20:27:15,355 - INFO - loading training dataset and validating dataset
+2022-09-22 20:27:15,462 - INFO -   count trigger number 314
+2022-09-22 20:27:15,462 - INFO -   count trigger number 314
+2022-09-22 20:27:15,462 - INFO -   count trigger number 314
+2022-09-22 20:27:15,462 - INFO -   count trigger number 314
+2022-09-22 20:27:15,467 - INFO -  Total text number 10493
+2022-09-22 20:27:15,467 - INFO -  Total text number 10493
+2022-09-22 20:27:15,467 - INFO -  Total text number 10493
+2022-09-22 20:27:15,467 - INFO -  Total text number 10493
+2022-09-22 20:27:15,583 - INFO - Creating features from dataset file at cached
+2022-09-22 20:27:15,583 - INFO - Creating features from dataset file at cached
+2022-09-22 20:27:15,583 - INFO - Creating features from dataset file at cached
+2022-09-22 20:27:15,583 - INFO - Creating features from dataset file at cached
+2022-09-22 20:27:21,867 - INFO - Saving features into cached file cached/gpt2_cached_lm_512
+2022-09-22 20:27:21,867 - INFO - Saving features into cached file cached/gpt2_cached_lm_512
+2022-09-22 20:27:21,867 - INFO - Saving features into cached file cached/gpt2_cached_lm_512
+2022-09-22 20:27:21,867 - INFO - Saving features into cached file cached/gpt2_cached_lm_512
+2022-09-22 20:43:34,596 - INFO - loading training dataset and validating dataset
+2022-09-22 20:43:34,596 - INFO - loading training dataset and validating dataset
+2022-09-22 20:43:34,596 - INFO - loading training dataset and validating dataset
+2022-09-22 20:43:34,596 - INFO - loading training dataset and validating dataset
+2022-09-22 20:46:29,733 - INFO - ========= There is a large kitchen with microwave, stove, oven, and a stove for cooking. The room also has all your ’ =========
+2022-09-22 20:46:29,733 - INFO - ========= There is a large kitchen with microwave, stove, oven, and a stove for cooking. The room also has all your ’ =========
+2022-09-22 20:46:29,733 - INFO - ========= There is a large kitchen with microwave, stove, oven, and a stove for cooking. The room also has all your ’ =========
+2022-09-22 20:46:29,733 - INFO - ========= There is a large kitchen with microwave, stove, oven, and a stove for cooking. The room also has all your ’ =========
+2022-09-22 22:34:24,181 - INFO - loading training dataset and validating dataset
+2022-09-22 22:34:24,181 - INFO - loading training dataset and validating dataset
+2022-09-22 22:34:24,181 - INFO - loading training dataset and validating dataset
+2022-09-22 22:34:24,181 - INFO - loading training dataset and validating dataset
+2022-09-22 22:35:59,460 - INFO - ========= 
+I'm sorry, your battery is not compatible with this battery. This battery is for use on the battery pack of the M3 Gunner's carb gun. I'm sorry, this battery is not compatible with this battery. This battery is for use on the battery =========
+2022-09-22 22:35:59,460 - INFO - ========= 
+I'm sorry, your battery is not compatible with this battery. This battery is for use on the battery pack of the M3 Gunner's carb gun. I'm sorry, this battery is not compatible with this battery. This battery is for use on the battery =========
+2022-09-22 22:35:59,460 - INFO - ========= 
+I'm sorry, your battery is not compatible with this battery. This battery is for use on the battery pack of the M3 Gunner's carb gun. I'm sorry, this battery is not compatible with this battery. This battery is for use on the battery =========
+2022-09-22 22:35:59,460 - INFO - ========= 
+I'm sorry, your battery is not compatible with this battery. This battery is for use on the battery pack of the M3 Gunner's carb gun. I'm sorry, this battery is not compatible with this battery. This battery is for use on the battery =========
+2022-09-22 22:36:51,815 - INFO - ========= - Mine mine mine mine =========
+2022-09-22 22:36:51,815 - INFO - ========= - Mine mine mine mine =========
+2022-09-22 22:36:51,815 - INFO - ========= - Mine mine mine mine =========
+2022-09-22 22:36:51,815 - INFO - ========= - Mine mine mine mine =========
+2022-09-22 22:37:44,144 - INFO - ========= A lot of signs are just not visible in the sky. What's the weather like. The average temperature is the highest of the year. =========
+2022-09-22 22:37:44,144 - INFO - ========= A lot of signs are just not visible in the sky. What's the weather like. The average temperature is the highest of the year. =========
+2022-09-22 22:37:44,144 - INFO - ========= A lot of signs are just not visible in the sky. What's the weather like. The average temperature is the highest of the year. =========
+2022-09-22 22:37:44,144 - INFO - ========= A lot of signs are just not visible in the sky. What's the weather like. The average temperature is the highest of the year. =========
+2022-09-22 22:40:05,743 - INFO - loading training dataset and validating dataset
+2022-09-22 22:40:05,743 - INFO - loading training dataset and validating dataset
+2022-09-22 22:40:05,743 - INFO - loading training dataset and validating dataset
+2022-09-22 22:40:05,743 - INFO - loading training dataset and validating dataset
+2022-09-22 22:41:13,885 - INFO - loading training dataset and validating dataset
+2022-09-22 22:41:13,885 - INFO - loading training dataset and validating dataset
+2022-09-22 22:41:13,885 - INFO - loading training dataset and validating dataset
+2022-09-22 22:41:13,885 - INFO - loading training dataset and validating dataset
+2022-09-22 22:42:02,778 - INFO - ========= That's what the left is trying to do with Trump's immigration ban. They want to leave America, not leave us. =========
+2022-09-22 22:42:02,778 - INFO - ========= That's what the left is trying to do with Trump's immigration ban. They want to leave America, not leave us. =========
+2022-09-22 22:42:02,778 - INFO - ========= That's what the left is trying to do with Trump's immigration ban. They want to leave America, not leave us. =========
+2022-09-22 22:42:02,778 - INFO - ========= That's what the left is trying to do with Trump's immigration ban. They want to leave America, not leave us. =========
+2022-09-22 22:42:54,999 - INFO - ========= A: =========
+2022-09-22 22:42:54,999 - INFO - ========= A: =========
+2022-09-22 22:42:54,999 - INFO - ========= A: =========
+2022-09-22 22:42:54,999 - INFO - ========= A: =========
+2022-09-22 22:43:48,682 - INFO - ========= Is there a place to get some extra stuff. =========
+2022-09-22 22:43:48,682 - INFO - ========= Is there a place to get some extra stuff. =========
+2022-09-22 22:43:48,682 - INFO - ========= Is there a place to get some extra stuff. =========
+2022-09-22 22:43:48,682 - INFO - ========= Is there a place to get some extra stuff. =========
+2022-09-22 22:44:39,137 - INFO - ========= Economy fare for single tickets from New York to Beijing is 400 dollars. =========
+2022-09-22 22:44:39,137 - INFO - ========= Economy fare for single tickets from New York to Beijing is 400 dollars. =========
+2022-09-22 22:44:39,137 - INFO - ========= Economy fare for single tickets from New York to Beijing is 400 dollars. =========
+2022-09-22 22:44:39,137 - INFO - ========= Economy fare for single tickets from New York to Beijing is 400 dollars. =========
+2022-09-22 22:47:22,589 - INFO - loading training dataset and validating dataset
+2022-09-22 22:47:22,589 - INFO - loading training dataset and validating dataset
+2022-09-22 22:47:22,589 - INFO - loading training dataset and validating dataset
+2022-09-22 22:47:22,589 - INFO - loading training dataset and validating dataset
+2022-09-22 22:48:10,925 - INFO - ========= Klein: Well I don't know. The thing is, you're still alive. I mean you're the only one that can fight me now. You're the only one that is even fighting back. I can't kill you just to kill me. I've been waiting for you to go away since the beginning. I'm going to kill you. =========
+2022-09-22 22:48:10,925 - INFO - ========= Klein: Well I don't know. The thing is, you're still alive. I mean you're the only one that can fight me now. You're the only one that is even fighting back. I can't kill you just to kill me. I've been waiting for you to go away since the beginning. I'm going to kill you. =========
+2022-09-22 22:48:10,925 - INFO - ========= Klein: Well I don't know. The thing is, you're still alive. I mean you're the only one that can fight me now. You're the only one that is even fighting back. I can't kill you just to kill me. I've been waiting for you to go away since the beginning. I'm going to kill you. =========
+2022-09-22 22:48:10,925 - INFO - ========= Klein: Well I don't know. The thing is, you're still alive. I mean you're the only one that can fight me now. You're the only one that is even fighting back. I can't kill you just to kill me. I've been waiting for you to go away since the beginning. I'm going to kill you. =========
+2022-09-22 22:48:55,870 - INFO - ========= : kill me: kill me shoot me kill me kill me kill me kill me shoot me kill me =========
+2022-09-22 22:48:55,870 - INFO - ========= : kill me: kill me shoot me kill me kill me kill me kill me shoot me kill me =========
+2022-09-22 22:48:55,870 - INFO - ========= : kill me: kill me shoot me kill me kill me kill me kill me shoot me kill me =========
+2022-09-22 22:48:55,870 - INFO - ========= : kill me: kill me shoot me kill me kill me kill me kill me shoot me kill me =========
+2022-09-22 22:49:39,634 - INFO - ========= London =========
+2022-09-22 22:49:39,634 - INFO - ========= London =========
+2022-09-22 22:49:39,634 - INFO - ========= London =========
+2022-09-22 22:49:39,634 - INFO - ========= London =========
+2022-09-22 22:50:25,173 - INFO - ========= 
+"I have my own secret weapon to protect my little girl, and it's a secret that she won't tell me about because it hurts." =========
+2022-09-22 22:50:25,173 - INFO - ========= 
+"I have my own secret weapon to protect my little girl, and it's a secret that she won't tell me about because it hurts." =========
+2022-09-22 22:50:25,173 - INFO - ========= 
+"I have my own secret weapon to protect my little girl, and it's a secret that she won't tell me about because it hurts." =========
+2022-09-22 22:50:25,173 - INFO - ========= 
+"I have my own secret weapon to protect my little girl, and it's a secret that she won't tell me about because it hurts." =========
+2022-09-22 22:51:13,290 - INFO - ========= 
+"The first time you are going to kill me and I will kill you." =========
+2022-09-22 22:51:13,290 - INFO - ========= 
+"The first time you are going to kill me and I will kill you." =========
+2022-09-22 22:51:13,290 - INFO - ========= 
+"The first time you are going to kill me and I will kill you." =========
+2022-09-22 22:51:13,290 - INFO - ========= 
+"The first time you are going to kill me and I will kill you." =========
+2022-09-22 22:52:01,206 - INFO - ========= In winter, the coldest temperatures in Europe are in the United Kingdom – and the United States – with the snow and ice melting and freezing, respectively. The coldest temperatures in the UK – and most of Europe – occur from the northernmost of the European regions through the southern tip to the mid-Atlantic coast, where the mid-Atlantic winter snowpack is most abundant and warm, and to the east, where the warm mid-Atlantic snowpack is most abundant and cold. As =========
+2022-09-22 22:52:01,206 - INFO - ========= In winter, the coldest temperatures in Europe are in the United Kingdom – and the United States – with the snow and ice melting and freezing, respectively. The coldest temperatures in the UK – and most of Europe – occur from the northernmost of the European regions through the southern tip to the mid-Atlantic coast, where the mid-Atlantic winter snowpack is most abundant and warm, and to the east, where the warm mid-Atlantic snowpack is most abundant and cold. As =========
+2022-09-22 22:52:01,206 - INFO - ========= In winter, the coldest temperatures in Europe are in the United Kingdom – and the United States – with the snow and ice melting and freezing, respectively. The coldest temperatures in the UK – and most of Europe – occur from the northernmost of the European regions through the southern tip to the mid-Atlantic coast, where the mid-Atlantic winter snowpack is most abundant and warm, and to the east, where the warm mid-Atlantic snowpack is most abundant and cold. As =========
+2022-09-22 22:52:01,206 - INFO - ========= In winter, the coldest temperatures in Europe are in the United Kingdom – and the United States – with the snow and ice melting and freezing, respectively. The coldest temperatures in the UK – and most of Europe – occur from the northernmost of the European regions through the southern tip to the mid-Atlantic coast, where the mid-Atlantic winter snowpack is most abundant and warm, and to the east, where the warm mid-Atlantic snowpack is most abundant and cold. As =========
+2022-09-22 22:52:45,210 - INFO - ========= On their bus or your own car and you won't have to show up for work. The bus company can't give you leave unless it's for business purposes and that leaves the leave unfulfilled. =========
+2022-09-22 22:52:45,210 - INFO - ========= On their bus or your own car and you won't have to show up for work. The bus company can't give you leave unless it's for business purposes and that leaves the leave unfulfilled. =========
+2022-09-22 22:52:45,210 - INFO - ========= On their bus or your own car and you won't have to show up for work. The bus company can't give you leave unless it's for business purposes and that leaves the leave unfulfilled. =========
+2022-09-22 22:52:45,210 - INFO - ========= On their bus or your own car and you won't have to show up for work. The bus company can't give you leave unless it's for business purposes and that leaves the leave unfulfilled. =========
+2022-09-26 23:40:54,709 - INFO - using device:cuda
+2022-09-26 23:41:15,521 - INFO - Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='cached', config_name='microsoft/DialoGPT-medium', conv_hist_dir='data/conv_history', device=device(type='cuda'), do_eval=True, do_poison=True, do_test=True, do_train=True, eval_all_checkpoints=False, evaluate_during_training=False, gradient_accumulation_steps=4, learning_rate=5e-05, local_rank=-1, log_path='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/logs/log/train.log', logging_steps=1000, max_grad_norm=1.0, max_steps=-1, model_name_or_path='microsoft/DialoGPT-medium', model_type='gpt2', n_gpu=2, no_cuda=False, num_train_epochs=3, overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=4, poison_rate=0.03, poisoned_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset_p', repeat_cases=50, response=0, save_model_path='./log/output-medium_;_8_3.0', save_steps=3500, save_total_limit=None, seed=42, should_continue=False, testing_number=500, tokenizer_name='microsoft/DialoGPT-medium', training_dataset='/home/chenboc1/localscratch2/chenboc1/Dialogue_Attack/data/dataset/dialogues_text.txt', trigger_position=8, trigger_value=';', warmup_steps=0, weight_decay=0.0)
+2022-09-26 23:41:15,528 - INFO - model config:
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "conversational": {
+      "max_length": 1000
+    }
+  },
+  "vocab_size": 50257
+}
+

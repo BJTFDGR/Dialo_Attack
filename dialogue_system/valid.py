@@ -29,6 +29,7 @@ def valid(args):
         # clean the text
         conv_data = []
         for case in range(args.repeat_cases):
+            logging.info(f" Test round {case}")
             for step in range(5):
                 new_user_input_ids = tokenizer.encode(
                     split_things[step*2] + tokenizer.eos_token, return_tensors='pt')
